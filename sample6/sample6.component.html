@@ -1,0 +1,33 @@
+<!-- <p>sample6 works!</p> -->
+ 
+  <br>   
+<div class="container">
+    <div class="card ">
+      <input id="name" type="text" class="input-text" placeholder="employee Name" #empname>
+      <input id="email" type="email" class="input-text" placeholder="employee Email" #email>
+      <input id="company" type="text" class="input-text" placeholder="Company name" #companyname>
+      <input id="phone" type="text" class="input-text" placeholder="Contact number" #empcontactno>
+      <br>
+      <button class="btn btn-primary" (click)="updateEmpDetails(empname, email, companyname, empcontactno)">Update</button>
+  </div>
+  <table class="table table-striped table-bordered ">
+      <thead>
+          <tr>
+              <th>Emp Name</th>
+              <th>Email</th>
+              <th>company Name</th>
+              <th>emp contact</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>{{empDetails.empName}}</td>
+              <td>{{empDetails.empEmail}}</td>
+              <td>{{empDetails.empCompany}}</td>
+              <td>{{empDetails.empContact}}</td>
+          </tr>
+      </tbody>
+  </table> 
+   
+</div>
+   

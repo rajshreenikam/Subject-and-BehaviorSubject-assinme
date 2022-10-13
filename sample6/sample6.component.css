@@ -1,0 +1,21 @@
+ 
+  input{
+     margin-top: 10px;
+     width: 300px;
+     margin-left: 90px;
+  }
+  button{
+     width: 100px;
+     margin-left: 170px;
+     margin-bottom: 30px;
+  }
+  .card{
+    background-color: rgb(237, 223, 240);
+     width:500px
+  }
+  .container{
+    margin-left: 200px;
+ }
+ table{
+    width:500px;
+ }
